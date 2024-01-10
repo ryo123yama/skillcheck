@@ -1,5 +1,7 @@
-# 1行1文字（数値）
-## 例）10
+# paizaスキルチェック用標準入力取得テンプレート（Java）
+
+## 1行 1文字列（数値）
+例）10
 
 ```java
         Scanner sc = new Scanner(System.in);
@@ -8,8 +10,8 @@
         sc.close();
 ```
 ***
-# 1行2文字（数値）
-## 例）10 20
+## 1行 空白区切り 2文字列（数値）
+例）10 20
 
 ```java
         Scanner sc = new Scanner(System.in);
